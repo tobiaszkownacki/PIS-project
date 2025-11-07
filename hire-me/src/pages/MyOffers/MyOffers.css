@@ -1,0 +1,37 @@
+.my-offers {
+  padding: 40px 0;
+  flex: 1;
+}
+
+.my-offers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.my-offers-header h2 {
+  font-size: 32px;
+}
+
+.not-authenticated {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.not-authenticated h2 {
+  margin-bottom: 20px;
+  color: var(--gray-dark);
+}
+
+@media (max-width: 768px) {
+  .my-offers-header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .my-offers-header h2 {
+    font-size: 24px;
+  }
+}
