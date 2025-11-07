@@ -1,0 +1,33 @@
+.create-offer-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.help-text {
+  color: var(--gray);
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+.submit-error {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: rgba(239, 68, 68, 0.1);
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
