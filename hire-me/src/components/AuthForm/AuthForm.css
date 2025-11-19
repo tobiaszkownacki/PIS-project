@@ -1,0 +1,31 @@
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text);
+}
+
+.error-message {
+  color: var(--error);
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+}
+
+.form-group input.error {
+  border-color: var(--error);
+}
+
+.form-group input.error:focus {
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.auth-form .btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.auth-form .btn:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
